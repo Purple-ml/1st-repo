@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+  --Primary-color: #2bcb8b;
+  --secondary-color: #263238;
+  --info-color: #2194f3;
+  --silver-color: #f5f7fa;
+  --Neutral-blackcolor: #263238;
+  --Grey-color: #717171;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
+  transition: 0.2s linear;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+
+  overflow: hidden;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.7rem 120px;
+  background-color: var(--silver-color);
+  height: 84px;
+}
+.header .navbar a {
+  margin: 0 1rem;
+  color: var(--Neutral-blackcolor);
+}
+
+.header .navbar a:hover {
+  color: var(--Primary-color);
+  border-bottom: 0.1rem solid var(--Primary-color);
+  padding-bottom: 0.5rem;
+}
+.logup-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-btn {
+  color: var(--Primary-color);
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  margin-right: 0.3rem;
+}
+.signup-btn {
+  background-color: var(--Primary-color);
+  color: #ffffff;
+
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+}
+.login-btn:hover {
+  border: 0.1rem solid var(--Primary-color);
+}
+.container {
+  padding: 0 120px;
+}
+.hero {
+  background-color: var(--silver-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--Grey-color);
+}
+h1 {
+  font-weight: 600;
+  font-size: 4rem;
+}
+.hero .hero-content span {
+  color: var(--Primary-color);
+}
