@@ -246,10 +246,10 @@ span {
 
 .tesla {
   display: flex;
-
+  padding-bottom: 20px;
   gap: 50px;
   padding-top: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   background-color: var(--Silver-color);
 }
 .tesla-img {
@@ -297,6 +297,7 @@ span {
   text-align: center;
   align-items: center;
   font-weight: 500;
+  box-shadow: 0 8px 16px #abbed169;
 
   position: absolute;
   bottom: 0;
