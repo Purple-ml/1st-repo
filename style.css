@@ -246,7 +246,7 @@ span {
 
 .tesla {
   display: flex;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   gap: 50px;
   padding-top: 30px;
   margin-bottom: 50px;
@@ -280,6 +280,7 @@ span {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding-bottom: 170px;
 }
 .position {
   display: flex;
@@ -326,3 +327,27 @@ span {
   background-size: cover;
 }
 /* box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25); */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  background-color: #ccc;
+  align-items: center;
+}
+.foot-block {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 2fr;
+  column-gap: 30px;
+}
+.footer h3 {
+  font-size: 55px;
+  text-align: center;
+}
+.footer a {
+  background-color: var(--Primary-color);
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  display: inline-block;
+}
