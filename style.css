@@ -328,26 +328,32 @@ span {
 }
 /* box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25); */
 
-.footer {
+.demo {
   display: flex;
   flex-direction: column;
   gap: 25px;
-  background-color: #ccc;
+  background-color: var(--Silver-color);
   align-items: center;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
-.foot-block {
+.footer {
   display: grid;
   grid-template-columns: 3fr 1fr 1fr 2fr;
   column-gap: 30px;
+  background-color: var(--Neutral-black-color);
 }
-.footer h3 {
+.demo h3 {
   font-size: 55px;
   text-align: center;
 }
-.footer a {
+.demo a {
   background-color: var(--Primary-color);
   color: #ffffff;
   padding: 0.5rem 1rem;
   border-radius: 0.3rem;
   display: inline-block;
+}
+.flex-divs {
+  color: var(--Silver-color);
 }
