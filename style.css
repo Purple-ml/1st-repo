@@ -342,6 +342,9 @@ span {
   grid-template-columns: 3fr 1fr 1fr 2fr;
   column-gap: 30px;
   background-color: var(--Neutral-black-color);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: left;
 }
 .demo h3 {
   font-size: 55px;
@@ -356,4 +359,39 @@ span {
 }
 .flex-divs {
   color: var(--Silver-color);
+  font-size: 14px;
+  font-weight: 400;
+}
+.nexcent {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 20px;
+}
+footer li {
+  margin-bottom: 15px;
+}
+footer ul {
+  list-style: none;
+}
+footer input {
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  width: 255px;
+  height: 40px;
+  background-color: #ffffff42;
+  color: #fff;
+}
+::placeholder {
+  color: var(--Silver-color);
+}
+.footer-logos {
+  display: flex;
+  gap: 15px;
 }
